@@ -134,31 +134,31 @@ Running >> `$ mocha` command from the terminal will run all test files in ___tes
 
 ## TO TEST
 
-[x] `$ mkdir -p src && touch src/App.ts`
+- [x] `$ mkdir -p src && touch src/App.ts`
 
 Should create src directory and App.ts inside of it
 
-[x] `$ tsc`
+- [x] `$ tsc`
 
 * expected to create _dist/_ directory in project root
 * _dist/_ should have App.js
 
-[x] `$ mkdir -p test/src && touch test/src/App.test.ts`
+- [x] `$ mkdir -p test/src && touch test/src/App.test.ts`
 
 Should create test/src directories and App.test.ts inside of src
 
-[x] `$ mocha`
+- [x] `$ mocha`
 
 Expected to print:
 > Error: No test files found
 
-[x] Edit src/App.ts with the following:
+- [x] Edit src/App.ts with the following:
 
 ```typescript
     export default true;
 ```
 
-[x] Edit __test/src/App.test.ts__ with the following:
+- [x] Edit __test/src/App.test.ts__ with the following:
 
 ```typescript
 import {expect} from 'chai';
@@ -183,7 +183,7 @@ Expected to print:
   1 passing (5ms)
 ```
 
-[x] `$ tsc`
+- [x] `$ tsc`
 
 * Expected to create __dist/src/App.js__ which contain the following:
 
