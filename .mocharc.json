@@ -1,0 +1,7 @@
+{
+    "require":[
+        "./node_modules/ts-node/register"
+    ],
+    "spec": "test/**/*.ts",
+    "full-trace": "false"
+}
